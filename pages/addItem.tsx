@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import React, { FormEvent, useState } from "react";
 import Header from "../components/Header";
 import { useAddress, useContract } from "@thirdweb-dev/react";
