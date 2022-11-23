@@ -5,6 +5,7 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   darkMode: "class",
+  safelist: ["outline-none"],
   theme: {
     extend: {},
   },
