@@ -75,7 +75,7 @@ function Header({}: Props) {
         <div className="flex items-center space-x-2 px-2 md:px-5 py-2 border-black border-2 flex-1">
           <MagnifyingGlassIcon className="w-5 text-gray-400" />
           <input
-            className="flex-1 outline-none"
+            className="flex-1 border-none focus:ring-0"
             placeholder="Search for Anything"
             type="text"
           />
